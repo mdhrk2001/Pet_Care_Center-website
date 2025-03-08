@@ -1,0 +1,705 @@
+/*Common For Home(Index), SERVICES, DOGHOSTEL, ABOUT & REVIEWS Pages*/
+
+/*Header Div-Commom*/
+
+header {
+    background-color: black;
+    margin-top: -22px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+#l {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#r {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    word-spacing: 20px;
+    padding-top: 5px;
+    font-family: Verdana;
+    letter-spacing: 8px;
+    margin-top: 14px;
+}
+
+nav.headnav {
+    margin-top: -10px;
+}
+
+nav.headnav a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 20px;
+}
+
+nav.headnav a:hover {
+    background-color: brown;
+}
+
+
+
+/*Footer Div-Common*/
+
+
+table.tablefont {  
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: -15px;
+}
+
+ul.tablefont {
+    list-style: none;
+    text-align: left;
+    margin-left: 25%;
+    line-height: 50px;
+    padding-top: 5px;
+    margin-top: -55px;
+}
+
+ul.tablefont > li > a {
+    padding: 5px 10px;
+}
+
+.tablefont a:hover {
+    text-shadow: 2px 2px 3px white;
+}
+
+th {
+    height: 40px;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+}
+
+td a {
+    color: white;
+    text-decoration: none;
+}
+
+iframe {
+    border: 3px solid red;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#font {
+    font-family: "Lucida Handwriting";
+    letter-spacing: 1px;
+    color: white;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid red;
+    border-radius: 110px;
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: black;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    position: relative;
+}
+
+
+
+.location {
+    background: url(../images/ImageSprite.png) 71px -35px;
+    width: 45px;
+    height: 45px;
+    margin-top: -120px;
+    margin-left: -90px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.telephone {
+    background: url(../images/ImageSprite.png) -27px -35px;
+    width: 45px;
+    height: 45px;
+    margin-top: -30px;
+    margin-left: -90px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.email {
+    background: url(../images/ImageSprite.png) -26px 81px;
+    width: 45px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: -90px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.footinfoleft a:hover {
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+td.footinfoleft {
+    width: 6.25%;
+    text-align: right;
+}
+
+td.footinforight {
+    width: 18.75%;
+    text-align: left;
+}
+
+p.footinforight {
+    margin-top: -15px;
+}
+
+
+
+.footcopy {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    height: 25px;
+}
+
+p.footcopy {
+    padding-top: 5px;
+    
+}
+
+
+
+/*Different For HOME(Index), SERVICES, DOGHOSTEL, ABOUT & REVIEWS Pages*/
+
+/*Body  &  Mid Div for HOME(Index) Page*/
+
+
+body.home {
+    background-image: url(../images/puppy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.mid {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 4px solid white;
+    text-align: center;
+    color: white; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+#midhr {
+    font-size: 40px;
+}
+
+#midp {
+    font-size: 19px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#midspace {
+    word-spacing: 7px;
+}
+
+a.midnav {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 5px solid red;
+    padding: 3px 70px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.midnav a:hover {
+    box-shadow: 1px 1px 8px 2px white;
+}
+
+
+
+/*Body  &  Mid Div for SERVICES Page*/
+
+
+body.services {
+    position: absolute;
+}
+
+div.bigdiv1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 2px;
+    min-width: 1400px;
+}
+
+div.bigdiv2 {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    min-width: 1400px;
+}
+
+div.smalldiv {   
+    padding: 15px;
+    margin: 10px;
+}
+
+img.imgser {
+    width: 70px;
+    height: 70px;
+    border: 0.1px solid black;
+    box-shadow: 0px 0px 3px 3px yellow;
+}
+
+button.Morebtn {
+    background-color: gold;
+    border: 0px solid black;
+    float: right;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 150px;
+    height: 25px;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+button.Morebtn:hover {
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+
+
+/*Body  &  Mid Div for DOGHOSTEL Page*/
+
+
+body.doghostel {
+    background-image: url(../images/Servicebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+h2.doghostel {
+    color: yellow;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+p.doghostel {
+    color: white;
+    font-size: 100px;
+    margin-top: -125px;
+    margin-bottom: 15px;
+}
+
+div.dogho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    min-width: 1400px;
+}
+
+form.doghos {
+    margin-top: 15px;
+    border: 4px double rgb(2, 116, 2);
+    padding: 10px;
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input.doghostel {
+    color: rgba(255, 255, 255, 1);
+    width: 495px;
+    height: 20px;
+    margin: 10px 0px;
+    border: 0;
+    border-radius: 2px;
+}
+
+#CODate {
+    color: #999;
+}
+
+#CIDate {
+    color: #999;
+}
+
+#dhbutton {
+    background-color: white;
+    border: 4px solid red;
+    font-size: 10px;
+    padding: 7px 7px;
+    font-weight: bold;
+    align-items: center;
+    margin: 10px 40%;
+}
+
+#dhbutton:hover {
+    box-shadow: 0px 0px 0px 2px red;
+    transition: ease-in-out;
+    cursor: pointer;
+}
+
+
+
+/*Body  &  Mid Div for ABOUT Page*/
+
+
+body.about {
+    position: absolute;
+}
+
+p.underline {
+    font-size: 100px;
+    margin-top: -130px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+}
+
+#pfontabout {
+    font-size: 25px;
+}
+
+#hfontabout {
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.abouttab table {
+    padding: 0px 100px;
+    position: relative;
+}
+
+img.aboutpic {
+    width: 600px;
+    height: 700px;
+    margin-bottom: -42px;
+    margin-top: -3px;
+}
+
+.btn-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-grp button {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    cursor: help;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.line {
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    margin-bottom: -10px;
+}
+
+.btn-grp button:hover {
+    border: 4px solid rgb(0, 163, 0);    
+}
+
+.fb {
+    background: url(../images/SocialMedia.png) 70px 0px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.inst {
+    background: url(../images/SocialMedia.png) 69.5px -77px;
+    width: 70px;
+    height: 70px;
+    margin-left: 80px;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.yt {
+    background: url(../images/SocialMedia.png) 70px 70px;
+    width: 70px;
+    height: 70px;
+    margin-left: 160px;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.wtsp {
+    background: url(../images/SocialMedia.png) 1px 148px;
+    width: 70px;
+    height: 70px;
+    margin-left: 240px;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+div.socialdiv {
+    background-color: aqua;
+    display: flex;
+    width: 445px;
+    margin-left: 170px;
+}
+
+.socialdiv a:hover {
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+
+
+/*Body  &  Mid Div for REVIEWS Page*/
+
+
+body.reviews {
+    position: absolute;
+}
+
+#reviewh2 {
+    margin-left: 51px;
+    margin-top: 60px;
+    color: yellow;
+    font-variant: small-caps;
+}
+
+div.reviewd1 {
+    display: flex;
+    justify-items: center;
+    padding: 90px 50px;
+    background-color: gray;
+    margin: -90px -8px;
+}
+
+#reviewfont {
+    font-size: 100px;
+    margin-top: -128px;
+    margin-bottom: 0px;
+    margin-left: 52px;
+    color: yellow;
+}
+
+div.div123 {
+    background-color: white;
+    margin: 0px 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 450px;
+    position: relative;
+}
+
+p.padding123 {
+    padding: 0px 110px;
+    font-family: Lucida Handwriting;
+}
+
+img.reviewimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+
+/*Body  &  Mid Div for CONTACT Page*/
+
+
+body.contacts {
+    position: absolute;
+}
+
+h2.conts {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-variant: small-caps;
+}
+
+p.conts {
+    color: black;
+    font-size: 130px;
+    margin-top: -168px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 42px;
+}
+
+form.contactform {
+    text-align: center;
+}
+
+div.contactdiv {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 1100px;
+    height: 500px;
+    margin-top:90px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(3, 154, 181);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+input.conts {
+    width: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 30px;
+}
+
+.conts:focus {
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+#textarea {
+    width: 1000px;
+}
+
+#textarea:focus {
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+#subbutton {
+    border: 1px solid gold;
+    width: 1010px;
+    height: 35px;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: gold;
+    cursor: not-allowed;
+}
+
+#subdiv {
+    position: relative;
+    display: inline-block;
+}
+
+#subhint {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 125%; 
+    margin-left: 2px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 300px;
+    z-index: 1;
+}
+
+form.contactform:valid #subdiv #subbutton {
+    cursor: pointer;
+    background-color: gold;
+}
+
+form.contactform:invalid #subdiv #subbutton {
+    cursor: not-allowed;
+    background-color: gold;
+    color: gray;
+}
+
+form.contactform:valid #subdiv #subbutton:hover {
+    background-color: yellow;
+    transform: scale(1.02);
+    border: 1px solid black;
+}
+
+#subdiv:hover #subhint {
+    visibility: visible;
+    opacity: 1;
+}
+
+form.contactform:valid #subdiv #subbutton:hover + #subhint {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#backbutton {
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 1225px;
+    position: relative;
+}
+
+#backbutton:hover {
+    background-color: yellow;
+    box-shadow: 0px 0px 0px 1px black;
+    cursor: pointer;
+}
+

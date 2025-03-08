@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="shortcut icon" href="images/Pet_Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+</head>
+
+<body class="contacts">
+
+    <div class="contactdiv">
+
+        <form class="contactform" name="Contacts" action="index.html" method="get">
+
+            <h2 class="conts">Contact us</h2>
+            <p class="conts">___</p>
+
+            
+            <input class="conts" type="text" id="name" name="name" placeholder="Name" required><br><br>
+
+            
+            <input class="conts" type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+
+            
+            <input class="conts" type="tel" id="phone" name="phone" pattern="(0\d{9})|(\+94\d{9})" title="Please enter a valid phone number in the format '0XXXXXXXXX' or '+94XXXXXXXXX [Don't leave space/s between numbers]'" placeholder="Phone" required><br><br>
+
+            
+            <input class="conts" type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            
+            <textarea id="textarea" rows="4" cols="50" placeholder="Message"></textarea><br><br>
+
+            <div id="subdiv">
+                <input type="submit" value="SUBMIT NOW" id="subbutton">
+                <div id="subhint">Please fill the required fields [Name, Subject, Phone & Email] in the correct format</div>
+            </div>
+
+        </form>
+
+    </div>
+
+    <button id="backbutton">Go Back</button>
+
+    <script>
+        document.getElementById('backbutton').addEventListener('click',function() {
+            window.history.back();
+        });
+    </script>
+    
+</body>
+</html>
